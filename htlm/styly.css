@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(obrazky/12405.jpg);; /* Cesta k obrázku */
+    background-size: cover; /* Přizpůsobí velikost */
+    background-position: center; /* Vycentruje obrázek */
+    background-repeat: no-repeat; /* Zabrání opakování */
+}
+
+
+/*header*/
+
+header {
+    background-color: #76b15d;
+}
+
+header h1 {
+    margin-left: 50px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+/*main*/
+
+main {
+    width: 300px;
+    margin: 20px;
+}
+
+main p {
+    position: relative;
+    top: 50px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.text {
+    position: relative;
+    top: 700px;
+    background-color: #7e7e7e;
+    color: #ffffff;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.produkt {
+    color: black;
+    position: relative;
+    left: 550px;
+    top: 500px;
+}
+
+main img {
+    width: 300px;
+    position: relative;
+    left: 450px;
+    top: 450px;
+}
+
+main a {
+    color: white;
+    position: relative;
+    top: 510px;
+    left: 570px;
+    background-color: #76b15d;
+    border: 2px #7e7e7e double;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black;
+}
+
+/* footer */
+footer p {
+    position: relative;
+    top: 600px;
+    background: #dbdbdb;
+    font-size: 15px;
+}

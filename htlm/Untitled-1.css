@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* clearfix – zabrání kolapsu rodiče kvůli float */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+header {
+    background-color: #76b15d;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header h1 {
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+/* Main */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Produkt (nadpis) */
+.produkt {
+    font-size: 50px;
+    color: rgb(37, 88, 46);
+    float: left;
+    margin-right: 20px;
+}
+
+/* Obrázek */
+main img {
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
+
+/* Odkaz */
+main a {
+    font-size: 30px;
+    color: white;
+    background-color: #76b15d;
+    border: 2px #7e7e7e double;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Text o peroxidu vodíku */
+.peroxid {
+    clear: both;
+    margin: 30px 0;
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    padding: 15px;
+    background: #f0f0f0;
+    border-left: 5px solid #76b15d;
+}
+
+/* Hlavní text */
+.text {
+    background-color: #7e7e7e;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 20px;
+    clear: both;
+}
+
+/* Společný styl pro všechna tlačítka */
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background-color: #76b15d;
+    border: 2px solid #5a9147;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #5a9147;
+    color: #ffffff;
+}
+
+/* Pokud chceš změnit styl pro tlačítko zpět (index) */
+.btn-back {
+    float: left; /* nebo jiný styl pro umístění */
+}
+
+/* Footer */
+footer {
+    background: #dbdbdb;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    clear: both;
+}
